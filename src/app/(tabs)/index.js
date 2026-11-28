@@ -136,6 +136,37 @@ export default function HomeTab() {
         </View>
       </View>
 
+      <Link href="/learn/prohibited" asChild>
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel="Explore prohibited substances and methods"
+          style={({ pressed }) => [
+            styles.antiDopingCard,
+            pressed && styles.pressedCard,
+          ]}
+        >
+          <View style={styles.quizIcon}>
+            <AppText variant="heading" color={colors.primary}>
+              !
+            </AppText>
+          </View>
+          <View style={styles.quizCopy}>
+            <AppText variant="label" color={colors.primary}>
+              KNOW THE RULES
+            </AppText>
+            <AppText variant="heading">
+              Prohibited substances & methods
+            </AppText>
+            <AppText variant="caption" color={colors.textSecondary}>
+              Browse educational summaries and official resources.
+            </AppText>
+          </View>
+          <AppText variant="heading" color={colors.primary}>
+            →
+          </AppText>
+        </Pressable>
+      </Link>
+
       <Link href="/quiz" asChild>
         <Pressable
           accessibilityRole="button"
@@ -321,6 +352,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: colors.primarySoft,
     borderColor: '#D5E9DC',
+    borderRadius: 20,
+    borderWidth: StyleSheet.hairlineWidth,
+    flexDirection: 'row',
+    gap: spacing.md,
+    padding: spacing.md,
+  },
+  antiDopingCard: {
+    alignItems: 'center',
+    backgroundColor: colors.surface,
+    borderColor: colors.border,
     borderRadius: 20,
     borderWidth: StyleSheet.hairlineWidth,
     flexDirection: 'row',

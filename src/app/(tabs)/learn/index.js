@@ -1,12 +1,16 @@
 import { Link, useLocalSearchParams } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 import AppText from '../../../../components/AppText';
+import ExternalResourceCard from '../../../../components/ExternalResourceCard';
 import Screen from '../../../../components/Screen';
 import SectionHeader from '../../../../components/SectionHeader';
 import SurfaceCard from '../../../../components/SurfaceCard';
 import { colors, spacing } from '../../../../constants/theme';
 import articles from '../../../../data/learningArticles.json';
 import categories from '../../../../data/learningCategories.json';
+import resources from '../../../../data/antiDopingResources.json';
+
+const medicineResource = resources.find((resource) => resource.id === 'kym');
 
 function CategoryFilter({ category, selectedCategory }) {
   const selected = category.id === selectedCategory;
@@ -94,6 +98,32 @@ export default function LearningLibrary() {
         description="Build your clean-sport knowledge with practical, easy-to-follow guides."
       />
 
+      <Link href="/learn/prohibited" asChild>
+        <Pressable
+          accessibilityRole="button"
+          style={({ pressed }) => [
+            styles.antiDopingCard,
+            pressed && styles.pressedCard,
+          ]}
+        >
+          <View style={styles.antiDopingCopy}>
+            <AppText variant="label" color={colors.primary}>
+              ANTI-DOPING INFORMATION
+            </AppText>
+            <AppText variant="heading">
+              Prohibited substances & methods
+            </AppText>
+            <AppText variant="caption" color={colors.textSecondary}>
+              Browse classes, learn when restrictions apply, and find official
+              medicine resources.
+            </AppText>
+          </View>
+          <AppText variant="heading" color={colors.primary}>
+            →
+          </AppText>
+        </Pressable>
+      </Link>
+
       <View style={styles.sectionHeading}>
         <AppText variant="heading">Browse topics</AppText>
       </View>
@@ -157,6 +187,26 @@ export default function LearningLibrary() {
         Educational overview only. Always check the latest NADA India guidance
         and applicable anti-doping rules.
       </AppText>
+
+      <View style={styles.officialResource}>
+        <AppText variant="heading">Medicine check</AppText>
+        <AppText variant="caption" color={colors.textSecondary}>
+          Check medicine ingredients with NADA India’s Know Your Medicine
+          service.
+        </AppText>
+        <ExternalResourceCard
+          title={medicineResource.title}
+          description={medicineResource.description}
+          url={medicineResource.url}
+        />
+        <Link href="/learn/resources" asChild>
+          <Pressable accessibilityRole="button" style={styles.resourceLink}>
+            <AppText variant="button" color={colors.primary}>
+              All official resources  →
+            </AppText>
+          </Pressable>
+        </Link>
+      </View>
     </Screen>
   );
 }
@@ -164,6 +214,24 @@ export default function LearningLibrary() {
 const styles = StyleSheet.create({
   sectionHeading: {
     marginBottom: spacing.sm,
+  },
+  antiDopingCard: {
+    alignItems: 'center',
+    backgroundColor: colors.primarySoft,
+    borderColor: '#D5E9DC',
+    borderRadius: 18,
+    borderWidth: StyleSheet.hairlineWidth,
+    flexDirection: 'row',
+    gap: spacing.md,
+    marginBottom: spacing.lg,
+    padding: spacing.md,
+  },
+  antiDopingCopy: {
+    flex: 1,
+    gap: spacing.sm,
+  },
+  pressedCard: {
+    opacity: 0.8,
   },
   filterList: {
     gap: spacing.sm,
@@ -210,5 +278,13 @@ const styles = StyleSheet.create({
   },
   note: {
     marginTop: spacing.lg,
+  },
+  officialResource: {
+    gap: spacing.md,
+    marginTop: spacing.lg,
+  },
+  resourceLink: {
+    alignSelf: 'flex-start',
+    paddingVertical: spacing.xs,
   },
 });

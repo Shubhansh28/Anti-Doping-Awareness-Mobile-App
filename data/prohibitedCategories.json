@@ -1,0 +1,194 @@
+[
+  {
+    "id": "s0",
+    "code": "S0",
+    "title": "Non-approved substances",
+    "type": "substance",
+    "prohibitedWhen": "At all times",
+    "summary": "Pharmacological substances that are not addressed elsewhere on the List and are not approved for human therapeutic use by a governmental health authority.",
+    "examples": [
+      "Substances in pre-clinical or clinical development",
+      "Substances withdrawn from development",
+      "Designer drugs without current approval for human therapeutic use"
+    ],
+    "athleteNote": "A product being sold online or described as a research chemical does not mean it is approved or safe for an athlete."
+  },
+  {
+    "id": "s1",
+    "code": "S1",
+    "title": "Anabolic agents",
+    "type": "substance",
+    "prohibitedWhen": "At all times",
+    "summary": "This class includes anabolic-androgenic steroids and other agents with anabolic effects.",
+    "examples": [
+      "Testosterone and nandrolone",
+      "Stanozolol",
+      "Selected selective androgen receptor modulators (SARMs), such as ostarine"
+    ],
+    "athleteNote": "Some products marketed for muscle-building may contain undeclared or prohibited ingredients. Check ingredients and official guidance before use."
+  },
+  {
+    "id": "s2",
+    "code": "S2",
+    "title": "Peptide hormones, growth factors and related substances",
+    "type": "substance",
+    "prohibitedWhen": "At all times",
+    "summary": "This class covers specified peptide hormones, growth factors, related substances and mimetics.",
+    "examples": [
+      "Erythropoietins (EPOs)",
+      "Growth hormone and its releasing factors",
+      "Specified hypoxia-inducible factor (HIF) activating agents"
+    ],
+    "athleteNote": "The Prohibited List defines which substances and related agents are included; this short overview is not a complete list."
+  },
+  {
+    "id": "s3",
+    "code": "S3",
+    "title": "Beta-2 agonists",
+    "type": "substance",
+    "prohibitedWhen": "At all times, subject to specified exceptions",
+    "summary": "Beta-2 agonists are medicines commonly used for respiratory conditions. The List prohibits this class, with specific exceptions and conditions for certain inhaled medicines.",
+    "examples": [
+      "Clenbuterol",
+      "Terbutaline",
+      "Some inhaled medicines have specific permitted-use conditions"
+    ],
+    "athleteNote": "Do not infer that an inhaler is permitted from its brand or route alone. Check the exact active ingredient and current List conditions with a qualified medical professional."
+  },
+  {
+    "id": "s4",
+    "code": "S4",
+    "title": "Hormone and metabolic modulators",
+    "type": "substance",
+    "prohibitedWhen": "At all times",
+    "summary": "This class includes specified substances that affect hormone activity or metabolic processes.",
+    "examples": [
+      "Aromatase inhibitors",
+      "Specified anti-estrogenic substances",
+      "Specified metabolic modulators"
+    ],
+    "athleteNote": "The class contains different substances and exceptions. Check the current List rather than relying on a broad drug-family name."
+  },
+  {
+    "id": "s5",
+    "code": "S5",
+    "title": "Diuretics and masking agents",
+    "type": "substance",
+    "prohibitedWhen": "At all times, subject to specified exceptions",
+    "summary": "This class includes specified diuretics and other agents that can alter or obscure findings in a sample.",
+    "examples": [
+      "Furosemide",
+      "Hydrochlorothiazide",
+      "Other specified masking agents"
+    ],
+    "athleteNote": "Some substances have route-specific exceptions, and some combinations have additional rules. Check the exact substance and current List."
+  },
+  {
+    "id": "s6",
+    "code": "S6",
+    "title": "Stimulants",
+    "type": "substance",
+    "prohibitedWhen": "In-competition, subject to specified exceptions and thresholds",
+    "summary": "The List prohibits specified stimulants during the in-competition period. Not every stimulant-like ingredient is prohibited.",
+    "examples": [
+      "Amphetamine",
+      "Cocaine",
+      "Methylphenidate"
+    ],
+    "athleteNote": "Some substances have thresholds or specified exceptions, and some are monitored rather than prohibited. Check the current List and ask a qualified professional."
+  },
+  {
+    "id": "s7",
+    "code": "S7",
+    "title": "Narcotics",
+    "type": "substance",
+    "prohibitedWhen": "In-competition",
+    "summary": "The List prohibits specified narcotics during the in-competition period.",
+    "examples": [
+      "Morphine",
+      "Oxycodone",
+      "Tramadol"
+    ],
+    "athleteNote": "Never stop or change prescribed treatment without medical advice. Ask your doctor and anti-doping organization how the rules apply to your treatment."
+  },
+  {
+    "id": "s8",
+    "code": "S8",
+    "title": "Cannabinoids",
+    "type": "substance",
+    "prohibitedWhen": "In-competition, subject to specified exceptions",
+    "summary": "The List prohibits specified natural and synthetic cannabinoids during the in-competition period, with stated exceptions.",
+    "examples": [
+      "Natural and synthetic tetrahydrocannabinols (THCs)",
+      "Specified synthetic cannabinoids"
+    ],
+    "athleteNote": "Products may contain ingredients not clearly shown on the label. Check current official guidance before using cannabinoid products."
+  },
+  {
+    "id": "s9",
+    "code": "S9",
+    "title": "Glucocorticoids",
+    "type": "substance",
+    "prohibitedWhen": "In-competition for specified routes of administration",
+    "summary": "Glucocorticoids are prohibited in-competition when administered by routes specified in the List, including oral, rectal and injectable routes.",
+    "examples": [
+      "Prednisolone",
+      "Dexamethasone",
+      "Triamcinolone"
+    ],
+    "athleteNote": "Status depends on substance, route and timing. Discuss treatment with your doctor and check current washout and Therapeutic Use Exemption (TUE) guidance."
+  },
+  {
+    "id": "p1",
+    "code": "P1",
+    "title": "Beta-blockers",
+    "type": "substance",
+    "prohibitedWhen": "In specified sports, in-competition and sometimes at all times",
+    "summary": "Beta-blockers are prohibited only in the sports and circumstances identified in the Prohibited List.",
+    "examples": [
+      "Propranolol",
+      "Atenolol",
+      "Metoprolol"
+    ],
+    "athleteNote": "Whether this class applies depends on your sport and competition context. Check the sport-specific section of the current List."
+  },
+  {
+    "id": "m1",
+    "code": "M1",
+    "title": "Manipulation of blood and blood components",
+    "type": "method",
+    "prohibitedWhen": "At all times",
+    "summary": "This class covers specified methods that manipulate blood or blood components to alter their use or transport.",
+    "examples": [
+      "Administration or reintroduction of specified blood products",
+      "Specified methods that enhance oxygen transfer"
+    ],
+    "athleteNote": "The List defines the prohibited methods and permitted medical circumstances. Seek qualified advice if you have a medical procedure or concern."
+  },
+  {
+    "id": "m2",
+    "code": "M2",
+    "title": "Chemical and physical manipulation",
+    "type": "method",
+    "prohibitedWhen": "At all times",
+    "summary": "This class covers specified tampering, attempted tampering and prohibited intravenous infusions or injections.",
+    "examples": [
+      "Tampering or attempted tampering with samples",
+      "Certain intravenous infusions or injections outside the permitted circumstances"
+    ],
+    "athleteNote": "Medical care and permitted procedures have specific rules and exceptions. Consult the current List and your anti-doping organization."
+  },
+  {
+    "id": "m3",
+    "code": "M3",
+    "title": "Gene and cell doping",
+    "type": "method",
+    "prohibitedWhen": "At all times",
+    "summary": "This class covers specified methods that use nucleic acids, gene editing or cells to alter performance.",
+    "examples": [
+      "Specified gene editing or gene silencing methods",
+      "Use of cells to enhance performance by prohibited means"
+    ],
+    "athleteNote": "The Prohibited List describes the scope of these methods. This educational summary is not a substitute for the full List."
+  }
+]

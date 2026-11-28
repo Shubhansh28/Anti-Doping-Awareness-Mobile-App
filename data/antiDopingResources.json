@@ -1,0 +1,26 @@
+[
+  {
+    "id": "wada-list",
+    "title": "WADA Prohibited List",
+    "description": "Open the official list and current updates. The 2026 List took effect on 1 January 2026.",
+    "url": "https://www.wada-ama.org/en/resources/world-anti-doping-code-and-international-standards/prohibited-list"
+  },
+  {
+    "id": "nada-testing",
+    "title": "NADA India athlete testing",
+    "description": "Learn what athletes can expect during the sample collection process.",
+    "url": "https://nadaindia.yas.gov.in/athlete-testing"
+  },
+  {
+    "id": "kym",
+    "title": "NADA India Know Your Medicine (KYM)",
+    "description": "Check the prohibitory status of a medicine or its ingredients using NADA India's medicine-checking service.",
+    "url": "https://kym.nadaindia.yas.gov.in/"
+  },
+  {
+    "id": "tue",
+    "title": "NADA India Therapeutic Use Exemption (TUE)",
+    "description": "Find official information about applying for a TUE when medical treatment may involve a prohibited substance or method.",
+    "url": "https://nadaindia.yas.gov.in/tue-process-2"
+  }
+]
