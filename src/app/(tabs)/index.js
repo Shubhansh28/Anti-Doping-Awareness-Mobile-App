@@ -4,12 +4,8 @@ import AppText from '../../../components/AppText';
 import Screen from '../../../components/Screen';
 import SurfaceCard from '../../../components/SurfaceCard';
 import { colors, spacing } from '../../../constants/theme';
-
-const categories = [
-  { title: 'Anti-doping basics', symbol: '◎' },
-  { title: 'Athlete rights', symbol: '◇' },
-  { title: 'Medicine safety', symbol: '+' },
-];
+import articles from '../../../data/learningArticles.json';
+import categories from '../../../data/learningCategories.json';
 
 function SectionTitle({ children, action }) {
   return (
@@ -24,12 +20,18 @@ function SectionTitle({ children, action }) {
   );
 }
 
-function CategoryCard({ title, symbol }) {
+function CategoryCard({ category }) {
   return (
-    <Link href="/learn" asChild>
+    <Link
+      href={{
+        pathname: '/learn',
+        params: { category: category.id },
+      }}
+      asChild
+    >
       <Pressable
         accessibilityRole="button"
-        accessibilityLabel={`Explore ${title}`}
+        accessibilityLabel={`Explore ${category.title}`}
         style={({ pressed }) => [
           styles.categoryCard,
           pressed && styles.pressedCard,
@@ -37,11 +39,11 @@ function CategoryCard({ title, symbol }) {
       >
         <View style={styles.categoryIcon}>
           <AppText variant="heading" color={colors.primary}>
-            {symbol}
+            {category.symbol}
           </AppText>
         </View>
         <AppText variant="caption" style={styles.categoryTitle}>
-          {title}
+          {category.title}
         </AppText>
       </Pressable>
     </Link>
@@ -129,11 +131,7 @@ export default function HomeTab() {
         </SectionTitle>
         <View style={styles.categoryRow}>
           {categories.map((category) => (
-            <CategoryCard
-              key={category.title}
-              title={category.title}
-              symbol={category.symbol}
-            />
+            <CategoryCard key={category.id} category={category} />
           ))}
         </View>
       </View>
@@ -170,7 +168,13 @@ export default function HomeTab() {
         <SectionTitle action="Explore">
           Featured for you
         </SectionTitle>
-        <Link href="/learn" asChild>
+        <Link
+          href={{
+            pathname: '/learn/[articleId]',
+            params: { articleId: 'athlete-responsibility' },
+          }}
+          asChild
+        >
           <Pressable
             accessibilityRole="button"
             accessibilityLabel="Explore featured topic: Your health, your responsibility"

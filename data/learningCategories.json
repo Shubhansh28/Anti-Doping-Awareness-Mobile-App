@@ -1,0 +1,20 @@
+[
+  {
+    "id": "clean-sport",
+    "title": "Clean sport basics",
+    "description": "Understand the values and principles behind sport without doping.",
+    "symbol": "◎"
+  },
+  {
+    "id": "athlete-rights",
+    "title": "Rights and responsibilities",
+    "description": "Learn what athletes and their support teams are responsible for.",
+    "symbol": "◇"
+  },
+  {
+    "id": "doping-control",
+    "title": "Doping control",
+    "description": "Know what to expect during the sample collection process.",
+    "symbol": "✓"
+  }
+]

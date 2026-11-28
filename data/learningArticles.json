@@ -1,0 +1,147 @@
+[
+  {
+    "id": "clean-sport-values",
+    "categoryId": "clean-sport",
+    "title": "What does clean sport mean?",
+    "summary": "Clean sport protects athlete health and helps keep competition fair.",
+    "readMinutes": 3,
+    "source": "NADA India — Anti-Doping Education",
+    "sections": [
+      {
+        "heading": "More than a test",
+        "paragraphs": [
+          "Clean sport is a shared commitment to compete without prohibited substances or methods. It supports fair play, respect for opponents, and the health and dignity of athletes.",
+          "Anti-doping work includes education, prevention, testing, and fair results management. Knowing the rules before a competition helps athletes make informed choices."
+        ]
+      },
+      {
+        "heading": "Everyone has a role",
+        "paragraphs": [
+          "Athletes, coaches, medical professionals, and other support personnel all contribute to a culture of clean sport. Ask questions when you are unsure and use current guidance from your national anti-doping organization."
+        ]
+      }
+    ],
+    "takeaway": "Make informed choices and seek reliable anti-doping guidance early."
+  },
+  {
+    "id": "athlete-responsibility",
+    "categoryId": "clean-sport",
+    "title": "Your anti-doping responsibility",
+    "summary": "Understand why checking what you take is an important athlete responsibility.",
+    "readMinutes": 4,
+    "source": "NADA India — Athlete’s Rights & Responsibilities",
+    "sections": [
+      {
+        "heading": "Be informed before you act",
+        "paragraphs": [
+          "Anti-doping rules place important responsibilities on athletes. Under the principle of strict liability, athletes are responsible for substances found in their samples, regardless of how a substance entered their body.",
+          "This makes it important to check medicines and supplements before use, keep a record of what you take, and ask a qualified medical professional or your anti-doping organization when you need guidance."
+        ]
+      },
+      {
+        "heading": "Get advice when unsure",
+        "paragraphs": [
+          "Product labels and advice from teammates are not a substitute for checking current, authoritative information. Rules and prohibited lists can change, so confirm the current status of a substance using official guidance."
+        ]
+      }
+    ],
+    "takeaway": "Check first, keep records, and ask a trusted professional if you are unsure."
+  },
+  {
+    "id": "athlete-rights",
+    "categoryId": "athlete-rights",
+    "title": "Know your rights as an athlete",
+    "summary": "Athletes have rights throughout the anti-doping process.",
+    "readMinutes": 3,
+    "source": "NADA India — Athlete’s Rights & Responsibilities",
+    "sections": [
+      {
+        "heading": "A fair and informed process",
+        "paragraphs": [
+          "Athletes have the right to be informed about the anti-doping process and to be treated fairly and respectfully. During doping control, officials should explain the procedure and the athlete's rights and responsibilities.",
+          "Anti-doping rules provide a process for reviewing potential rule violations. The applicable rules describe how an athlete may respond and what review or hearing options are available."
+        ]
+      },
+      {
+        "heading": "Ask questions",
+        "paragraphs": [
+          "If instructions are unclear, ask the Doping Control Officer to explain them. An athlete who needs support should consult the applicable NADA India rules or seek advice from a qualified representative."
+        ]
+      }
+    ],
+    "takeaway": "You can ask for clear information about your rights and the process."
+  },
+  {
+    "id": "athlete-responsibilities",
+    "categoryId": "athlete-rights",
+    "title": "Your responsibilities and support team",
+    "summary": "Athletes and their support personnel both help protect clean sport.",
+    "readMinutes": 4,
+    "source": "NADA India — Athlete’s Rights & Responsibilities",
+    "sections": [
+      {
+        "heading": "Athlete responsibilities",
+        "paragraphs": [
+          "Athletes are expected to know and follow the anti-doping rules that apply to them, be available for testing, and cooperate with sample collection procedures.",
+          "Keep your contact and whereabouts information accurate when the rules require it. If you have a question about an obligation, ask your sport organization or NADA India rather than guessing."
+        ]
+      },
+      {
+        "heading": "Support personnel matter too",
+        "paragraphs": [
+          "Coaches, trainers, doctors, and other athlete support personnel should help athletes understand the rules and make safe, informed choices. They should not encourage or assist doping."
+        ]
+      }
+    ],
+    "takeaway": "Clean sport is a shared responsibility between athletes and their support teams."
+  },
+  {
+    "id": "doping-control-steps",
+    "categoryId": "doping-control",
+    "title": "What happens during doping control?",
+    "summary": "A simple overview of notification, sample collection, and sealing.",
+    "readMinutes": 4,
+    "source": "NADA India — Athlete Testing",
+    "sections": [
+      {
+        "heading": "Notification and reporting",
+        "paragraphs": [
+          "An authorized Doping Control Officer or chaperone notifies an athlete selected for testing and shows identification. The athlete is informed about the process and their responsibilities.",
+          "Athletes are generally expected to report to the doping control station promptly and remain in view of the official until the collection process is complete. If there is a valid reason for a delay, tell the official and follow their instructions."
+        ]
+      },
+      {
+        "heading": "Providing and sealing a sample",
+        "paragraphs": [
+          "The official explains the collection steps. For a urine sample, the athlete selects collection equipment, provides the sample under the required observation, and divides it between the A and B bottles as directed.",
+          "The athlete checks that the bottles are sealed and that the sample code and paperwork are recorded correctly. The sealed sample is then sent for analysis."
+        ]
+      }
+    ],
+    "takeaway": "Listen to the official's instructions and ask for an explanation if anything is unclear."
+  },
+  {
+    "id": "sample-collection-checklist",
+    "categoryId": "doping-control",
+    "title": "During your sample collection",
+    "summary": "A few practical reminders can make the doping control process clearer.",
+    "readMinutes": 3,
+    "source": "NADA India — Athlete Testing",
+    "sections": [
+      {
+        "heading": "Take part in the checks",
+        "paragraphs": [
+          "Follow the Doping Control Officer's instructions and choose from the collection equipment made available to you. Before sealing, check the bottles and confirm that the sample code shown on the equipment matches the documentation.",
+          "Read the form carefully before signing. If you need to declare medication or supplements, or want to record a concern about the process, ask the official where to include that information."
+        ]
+      },
+      {
+        "heading": "If you need help",
+        "paragraphs": [
+          "Tell the official if you have a concern or do not understand a step. For detailed or current procedural guidance, refer to NADA India's athlete-testing information and applicable anti-doping rules."
+        ]
+      }
+    ],
+    "takeaway": "Follow each step carefully, check the sample details, and speak up if you need clarification."
+  }
+]
