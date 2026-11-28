@@ -1,0 +1,47 @@
+[
+  {
+    "id": "clean-sport",
+    "title": "Clean Sport Basics",
+    "subtitle": "Values, principles, and strict liability",
+    "description": "Test your understanding of the core values behind clean competition and athlete personal responsibility.",
+    "symbol": "◎",
+    "questionCount": 5,
+    "estimatedMinutes": 3
+  },
+  {
+    "id": "athlete-rights",
+    "title": "Rights & Responsibilities",
+    "subtitle": "Athlete rights, duties, and support personnel",
+    "description": "Assess your knowledge of what athletes and their support team are entitled to and accountable for.",
+    "symbol": "◇",
+    "questionCount": 5,
+    "estimatedMinutes": 3
+  },
+  {
+    "id": "doping-control",
+    "title": "Doping Control Process",
+    "subtitle": "Sample collection, procedures, and documentation",
+    "description": "Learn what to expect from notification to sample sealing during a routine doping control test.",
+    "symbol": "✓",
+    "questionCount": 5,
+    "estimatedMinutes": 3
+  },
+  {
+    "id": "prohibited-list",
+    "title": "Prohibited Substances & Methods",
+    "subtitle": "WADA 2026 List, KYM, and TUE guidance",
+    "description": "Check how well you know substance classifications, in-competition rules, and medical exemptions.",
+    "symbol": "!",
+    "questionCount": 5,
+    "estimatedMinutes": 3
+  },
+  {
+    "id": "comprehensive",
+    "title": "Master Clean Sport Challenge",
+    "subtitle": "Complete NADA India awareness test",
+    "description": "A comprehensive quiz covering all aspects of anti-doping rules, rights, testing, and prohibited substances.",
+    "symbol": "★",
+    "questionCount": 10,
+    "estimatedMinutes": 6
+  }
+]

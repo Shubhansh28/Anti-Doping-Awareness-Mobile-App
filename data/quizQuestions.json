@@ -1,0 +1,392 @@
+[
+  {
+    "id": "cs-1",
+    "categoryId": "clean-sport",
+    "question": "Under the principle of strict liability in anti-doping, who is ultimately responsible for any prohibited substance found in an athlete's body?",
+    "options": [
+      "The athlete's coach or trainer",
+      "The athlete alone",
+      "The team physician or medical staff",
+      "The manufacturer of the supplement"
+    ],
+    "correctIndex": 1,
+    "explanation": "Under strict liability, athletes are solely responsible for any substance found in their sample, regardless of how it entered their body or whether there was any intent to cheat."
+  },
+  {
+    "id": "cs-2",
+    "categoryId": "clean-sport",
+    "question": "What is the primary objective of clean sport education and anti-doping regulations?",
+    "options": [
+      "To penalize as many competitors as possible",
+      "To protect athlete health and preserve fair and equal competition",
+      "To reduce the financial cost of sporting events",
+      "To restrict athletes from taking any prescription medicine"
+    ],
+    "correctIndex": 1,
+    "explanation": "Clean sport protects athlete health, ensures fair play and integrity, and maintains trust in sport by preventing unethical advantages."
+  },
+  {
+    "id": "cs-3",
+    "categoryId": "clean-sport",
+    "question": "If an athlete is recommended a dietary supplement by a teammate or social media influencer, what should the athlete do first?",
+    "options": [
+      "Take it immediately if it is labeled '100% all natural'",
+      "Verify its ingredients and consult official anti-doping resources or a qualified sports medical professional",
+      "Only take half the recommended dosage to stay safe",
+      "Assume dietary supplements are never prohibited"
+    ],
+    "correctIndex": 1,
+    "explanation": "Supplements can contain undeclared prohibited substances or contaminants. 'Natural' does not guarantee prohibited-substance-free status. Always verify and consult official resources."
+  },
+  {
+    "id": "cs-4",
+    "categoryId": "clean-sport",
+    "question": "Which of the following is considered an Anti-Doping Rule Violation (ADRV)?",
+    "options": [
+      "Eating a balanced nutritional meal before a competition",
+      "Evading, refusing, or failing to submit to sample collection without compelling justification",
+      "Asking a Doping Control Officer for identification",
+      "Taking an approved medication verified as non-prohibited"
+    ],
+    "correctIndex": 1,
+    "explanation": "Evading, refusing, or failing to submit to sample collection is an Anti-Doping Rule Violation under WADA and NADA India regulations."
+  },
+  {
+    "id": "cs-5",
+    "categoryId": "clean-sport",
+    "question": "Why is it important for athletes to keep an accurate record of all medications and supplements they consume?",
+    "options": [
+      "To declare them accurately during doping control paperwork and protect against contamination risks",
+      "It is only required for international Olympic medalists",
+      "To share their personal diet on public social media accounts",
+      "Because anti-doping agencies require daily receipts for grocery shopping"
+    ],
+    "correctIndex": 0,
+    "explanation": "Recording all medications and supplements enables accurate declaration on the Doping Control Form (DCF), which is essential during testing and results management."
+  },
+  {
+    "id": "ar-1",
+    "categoryId": "athlete-rights",
+    "question": "During doping control, what right does an athlete have regarding the testing personnel?",
+    "options": [
+      "The right to inspect the official identification and authorization of the Doping Control Officer (DCO)",
+      "The right to choose any convenient date next week for sample collection",
+      "The right to take the sample in complete private without any observation",
+      "The right to replace the sample with another person's sample"
+    ],
+    "correctIndex": 0,
+    "explanation": "Athletes have the right to see official identification and authorization from the DCO or chaperone before proceeding with sample collection."
+  },
+  {
+    "id": "ar-2",
+    "categoryId": "athlete-rights",
+    "question": "Can an athlete request a representative or an interpreter to accompany them during the doping control process?",
+    "options": [
+      "No, only the athlete and the DCO are ever allowed in the station",
+      "Yes, athletes have the right to be accompanied by a representative and, if available, an interpreter",
+      "Only if the athlete is under 12 years of age",
+      "Only after the sample has been sealed and sent to the laboratory"
+    ],
+    "correctIndex": 1,
+    "explanation": "Athletes are entitled to be accompanied by a representative (and an interpreter if needed) to observe the process and assist them."
+  },
+  {
+    "id": "ar-3",
+    "categoryId": "athlete-rights",
+    "question": "What is the responsibility of Athlete Support Personnel (coaches, doctors, physiotherapists)?",
+    "options": [
+      "To help athletes find undetected performance-enhancing substances",
+      "To understand anti-doping policies, promote clean sport values, and cooperate with anti-doping organizations",
+      "They have no legal or ethical anti-doping obligations",
+      "To take samples on behalf of the athlete when the athlete is busy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Support personnel must know and comply with anti-doping rules, guide athletes responsibly, and never assist or encourage doping."
+  },
+  {
+    "id": "ar-4",
+    "categoryId": "athlete-rights",
+    "question": "If an athlete has concerns or notices an irregularity during sample collection, where should they document it?",
+    "options": [
+      "In the comments section of the Doping Control Form (DCF) before signing",
+      "Only on social media after returning home",
+      "They are not allowed to record concerns anywhere",
+      "In a handwritten letter sent 6 months later"
+    ],
+    "correctIndex": 0,
+    "explanation": "Athletes have the right to record any comments or concerns directly on the Doping Control Form before signing."
+  },
+  {
+    "id": "ar-5",
+    "categoryId": "athlete-rights",
+    "question": "What is an athlete's responsibility regarding 'Whereabouts' information when included in a testing pool?",
+    "options": [
+      "Provide accurate, up-to-date location details so they can be located for unannounced out-of-competition testing",
+      "Share location only during competition days",
+      "Whereabouts details are optional and carry no penalty if missed",
+      "Only submit hotel receipts after a tournament ends"
+    ],
+    "correctIndex": 0,
+    "explanation": "Athletes in registered testing pools must provide timely and accurate Whereabouts information to facilitate unannounced out-of-competition testing."
+  },
+  {
+    "id": "dc-1",
+    "categoryId": "doping-control",
+    "question": "Once an athlete is officially notified for doping control, what must happen until the testing process is completed?",
+    "options": [
+      "The athlete must remain under direct, continuous observation by the DCO or chaperone",
+      "The athlete can leave unchaperoned to attend a press conference and return hours later",
+      "The athlete can go home first to shower and rest",
+      "The chaperone waits outside the building without line of sight"
+    ],
+    "correctIndex": 0,
+    "explanation": "From initial notification until the sample collection process is completed, the athlete must remain within direct sight of the DCO or chaperone."
+  },
+  {
+    "id": "dc-2",
+    "categoryId": "doping-control",
+    "question": "Who selects the sample collection vessel and kit used for urine collection?",
+    "options": [
+      "The DCO selects it and hands it open to the athlete",
+      "The athlete personally selects a sealed kit from a choice of multiple intact kits",
+      "The event organizer assigns a pre-opened container",
+      "The team coach must choose the equipment"
+    ],
+    "correctIndex": 1,
+    "explanation": "The athlete must personally choose from a selection of intact, sealed collection vessels to ensure the integrity of the equipment."
+  },
+  {
+    "id": "dc-3",
+    "categoryId": "doping-control",
+    "question": "How is a urine sample divided during sample collection?",
+    "options": [
+      "All urine is poured into one single plastic cup",
+      "It is divided between an 'A' bottle (for initial analysis) and a 'B' bottle (for confirmatory analysis)",
+      "It is mixed with chemical stabilizers by the coach",
+      "Half is discarded immediately and the rest is kept in a test tube"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sample is divided into Bottle A (analyzed first) and Bottle B (stored for confirmatory testing if needed), both sealed by the athlete."
+  },
+  {
+    "id": "dc-4",
+    "categoryId": "doping-control",
+    "question": "What should the athlete check before sealing the sample bottles?",
+    "options": [
+      "That the unique sample code number on the bottles, caps, and documentation all match perfectly",
+      "That the athlete's name is written on the bottle glass",
+      "That the liquid is completely transparent",
+      "That the coach signs the bottle labels with a permanent marker"
+    ],
+    "correctIndex": 0,
+    "explanation": "To preserve anonymity, the athlete's name does NOT appear on the bottle; instead, a unique code is used. The athlete must confirm that code numbers on bottles, caps, and paperwork match."
+  },
+  {
+    "id": "dc-5",
+    "categoryId": "doping-control",
+    "question": "What happens if an athlete provides an insufficient volume of urine for a complete sample?",
+    "options": [
+      "The test is cancelled and declared void",
+      "A partial sample procedure is followed, sealing the partial sample until more volume is provided",
+      "The athlete is automatically suspended for 2 years",
+      "Water is added to the bottle to reach the required volume"
+    ],
+    "correctIndex": 1,
+    "explanation": "Under partial sample protocol, the provided amount is sealed and securely stored under observation until the athlete can provide sufficient volume to meet the minimum requirement."
+  },
+  {
+    "id": "pl-1",
+    "categoryId": "prohibited-list",
+    "question": "What is the WADA Prohibited List?",
+    "options": [
+      "A list of recommended gym workout routines",
+      "The international standard identifying substances and methods prohibited in-competition, at all times, or in specific sports",
+      "A list of athletes banned from travelling abroad",
+      "A commercial catalog of approved vitamin brands"
+    ],
+    "correctIndex": 1,
+    "explanation": "The WADA Prohibited List is an updated international standard detailing which substances and methods are prohibited in sport, and under what conditions."
+  },
+  {
+    "id": "pl-2",
+    "categoryId": "prohibited-list",
+    "question": "What is NADA India's 'Know Your Medicine' (KYM) service used for?",
+    "options": [
+      "Buying discounted generic medications online",
+      "Checking whether a specific medicine or ingredient contains substances prohibited under anti-doping rules",
+      "Booking hospital appointments with sports surgeons",
+      "Diagnosing chronic sports injuries"
+    ],
+    "correctIndex": 1,
+    "explanation": "KYM is an official NADA India tool that helps athletes and coaches check the prohibitory status of medicines and pharmaceutical ingredients."
+  },
+  {
+    "id": "pl-3",
+    "categoryId": "prohibited-list",
+    "question": "What must an athlete do if they have an illness or condition that requires treatment with a prohibited substance?",
+    "options": [
+      "Take the medicine secretly and hope they are not tested",
+      "Apply for a Therapeutic Use Exemption (TUE) before competing, following official procedures",
+      "Ask a coach to provide written permission on letterhead",
+      "Post an apology on social media"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Therapeutic Use Exemption (TUE) allows an athlete to use a necessary prohibited medication for legitimate medical reasons without committing an anti-doping rule violation."
+  },
+  {
+    "id": "pl-4",
+    "categoryId": "prohibited-list",
+    "question": "Which category of substances is prohibited at all times (both in-competition and out-of-competition)?",
+    "options": [
+      "S1 Anabolic Agents and S2 Peptide Hormones",
+      "S6 Stimulants (only prohibited in-competition)",
+      "S7 Narcotics (only prohibited in-competition)",
+      "P1 Beta-blockers in general sports"
+    ],
+    "correctIndex": 0,
+    "explanation": "Classes S0 through S5, including S1 Anabolic Agents and S2 Peptide Hormones, are prohibited at all times (in-competition and out-of-competition)."
+  },
+  {
+    "id": "pl-5",
+    "categoryId": "prohibited-list",
+    "question": "Are methods such as chemical tampering, blood manipulation, and intravenous infusions subject to anti-doping restrictions?",
+    "options": [
+      "No, only swallowed tablets and powders are restricted",
+      "Yes, prohibited methods (M1, M2, M3) are banned at all times under the Prohibited List",
+      "Only if performed on the exact day of a final medal match",
+      "Only for athletes competing in water sports"
+    ],
+    "correctIndex": 1,
+    "explanation": "Prohibited methods (M1 Blood Manipulation, M2 Chemical and Physical Manipulation, M3 Gene Doping) are banned at all times under WADA and NADA regulations."
+  },
+  {
+    "id": "comp-1",
+    "categoryId": "comprehensive",
+    "question": "Under strict liability, what is the athlete's duty regarding anything they consume?",
+    "options": [
+      "Trust product labels without independent verification",
+      "Ensure that no prohibited substance enters their body by thoroughly checking ingredients",
+      "Rely entirely on teammate recommendations",
+      "Assume prescription drugs from a family doctor are automatically exempt"
+    ],
+    "correctIndex": 1,
+    "explanation": "Athletes are strictly liable for what is inside their sample, meaning they must ensure that no prohibited substance enters their body."
+  },
+  {
+    "id": "comp-2",
+    "categoryId": "comprehensive",
+    "question": "When does the in-competition testing period generally begin unless specified otherwise?",
+    "options": [
+      "At 11:59 p.m. on the day before a competition in which the athlete is scheduled to participate",
+      "10 minutes before the starting whistle",
+      "Immediately after the medal ceremony",
+      "Only during the semifinal and final rounds"
+    ],
+    "correctIndex": 0,
+    "explanation": "Under the World Anti-Doping Code, the in-competition period generally starts at 11:59 p.m. on the day before the competition through the end of the competition and sample collection."
+  },
+  {
+    "id": "comp-3",
+    "categoryId": "comprehensive",
+    "question": "What is the key purpose of dividing a urine sample into Bottle A and Bottle B?",
+    "options": [
+      "To test for male and female hormones separately",
+      "Bottle A is used for initial testing, while Bottle B is preserved to confirm or challenge findings if needed",
+      "One bottle is kept by the athlete as a souvenir",
+      "One bottle is discarded if the first one passes"
+    ],
+    "correctIndex": 1,
+    "explanation": "The B sample provides an essential safeguard for the athlete, allowing independent confirmatory testing if the A sample yields an adverse analytical finding."
+  },
+  {
+    "id": "comp-4",
+    "categoryId": "comprehensive",
+    "question": "What information should an athlete write on the Doping Control Form regarding recent medications?",
+    "options": [
+      "All prescription medications, over-the-counter medicines, and supplements taken in the last 7 days",
+      "Only medications prescribed by an official Olympic doctor",
+      "No medications should ever be mentioned on the form",
+      "Only illegal street drugs"
+    ],
+    "correctIndex": 0,
+    "explanation": "The athlete should declare all prescription and non-prescription medicines, vitamins, and supplements taken over the preceding 7 days on the Doping Control Form."
+  },
+  {
+    "id": "comp-5",
+    "categoryId": "comprehensive",
+    "question": "If an athlete requires an asthma inhaler containing a beta-2 agonist, what should they verify?",
+    "options": [
+      "Check whether the specific active substance, dose, and route are permitted or require a TUE under the Prohibited List",
+      "Assume all inhalers are universally banned",
+      "Assume all inhalers are universally unrestricted",
+      "Use it only if purchased in another country"
+    ],
+    "correctIndex": 0,
+    "explanation": "Certain beta-2 agonists have specific permitted dosing thresholds (like salbutamol under specified limits), while others are prohibited or require a TUE. Always check official rules."
+  },
+  {
+    "id": "comp-6",
+    "categoryId": "comprehensive",
+    "question": "Who has the authority to request a sample from an athlete?",
+    "options": [
+      "Any fan or spectator at the venue",
+      "Authorized Anti-Doping Organizations (ADOs) such as NADA India, WADA, or International Federations",
+      "Commercial sports gear sponsors",
+      "Local law enforcement officers without anti-doping accreditation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Testing authority belongs exclusively to recognized Anti-Doping Organizations like NADA India, WADA, and authorized international/national sports federations."
+  },
+  {
+    "id": "comp-7",
+    "categoryId": "comprehensive",
+    "question": "What should an athlete do if a Doping Control Officer arrives for an out-of-competition test while training?",
+    "options": [
+      "Refuse the test because it is not a tournament day",
+      "Cooperate immediately, show identification, and remain in sight of the testing official",
+      "Run away to avoid interruption of training",
+      "Demand to postpone the test until the next week"
+    ],
+    "correctIndex": 1,
+    "explanation": "Out-of-competition testing can happen unannounced anytime and anywhere. Refusing or evading is a serious anti-doping rule violation."
+  },
+  {
+    "id": "comp-8",
+    "categoryId": "comprehensive",
+    "question": "Which of the following describes 'blood doping' or blood manipulation (Class M1)?",
+    "options": [
+      "Drinking electrolyte fluids after a marathon",
+      "Administering or reintroducing red blood cells or blood products to unnaturally increase oxygen delivery to muscles",
+      "Having a standard routine blood test at a diagnostic clinic",
+      "Donating blood to a hospital blood bank"
+    ],
+    "correctIndex": 1,
+    "explanation": "Blood manipulation to artificially enhance oxygen uptake or transport capacity is strictly prohibited under Class M1 of the Prohibited List."
+  },
+  {
+    "id": "comp-9",
+    "categoryId": "comprehensive",
+    "question": "What protection ensures that the laboratory testing a sample does not know the athlete's personal identity?",
+    "options": [
+      "The lab receives only the anonymous sample code number, not the athlete's name or personal contact info",
+      "The sample is disguised inside a gift box",
+      "The DCO invents a fake athlete name on the bottle",
+      "There is no anonymity in sample testing"
+    ],
+    "correctIndex": 0,
+    "explanation": "The laboratory copy of the Doping Control Form and the sample bottles contain only the unique code number, ensuring blind and unbiased laboratory analysis."
+  },
+  {
+    "id": "comp-10",
+    "categoryId": "comprehensive",
+    "question": "Where can Indian athletes access trusted, official information on clean sport, banned substances, and anti-doping procedures?",
+    "options": [
+      "Anonymous forums and bodybuilding chatrooms",
+      "NADA India's official website (nadaindia.yas.gov.in) and WADA resources",
+      "Foreign online pharmacies selling unverified supplements",
+      "Unverified social media fitness reels"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official anti-doping guidance should always be sourced from NADA India (nadaindia.yas.gov.in) and WADA (wada-ama.org)."
+  }
+]
